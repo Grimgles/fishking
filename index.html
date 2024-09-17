@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,85 +14,104 @@
             padding: 0;
             text-align: center;
         }
+
         h1 {
             margin-top: 20px;
             margin-bottom: 20px;
         }
+
         table {
             border-collapse: collapse;
             width: auto;
             table-layout: auto;
             margin: 20px auto;
         }
-        th, td {
-            border: 2px solid #000000; 
+
+        th,
+        td {
+            border: 2px solid #000000;
             padding: 12px;
-            text-align: left;
+            text-align: middle;
             box-sizing: border-box;
         }
+
+        td:nth-child(3) {
+            text-align: left;
+        }
+
         th {
             background-color: #131313;
         }
+
         td {
-            background-color:#1b1b1b;
+            background-color: #1b1b1b;
         }
+
         .image-text {
             display: inline-block;
             vertical-align: middle;
         }
+
         img {
             width: 50px;
             height: auto;
             vertical-align: middle;
         }
+
         .fish-name {
             color: #f3f54c;
             display: inline-block;
             vertical-align: middle;
         }
+
         .bait {
             color: #D26015;
         }
+
         .yellow-recipe {
             color: #fcff4a;
-            text-shadow:black 1px 0 1px;
+            text-shadow: black 1px 0 1px;
         }
+
         .gold-recipe {
             color: #E69138;
-            text-shadow:black 1px 0 1px;
+            text-shadow: black 1px 0 1px;
         }
+
         .purple-recipe {
             color: #b4489f;
-            text-shadow:black 1px 0 1px;
+            text-shadow: black 1px 0 1px;
         }
     </style>
 </head>
+
 <body>
     <h1>Sunday</h1>
     <table>
         <tr>
             <th>Time</th>
-            <th>Fish King</th>
             <th>Location</th>
+            <th>Fish King</th>
         </tr>
         <tr>
             <td>13, 15, 17</td>
-            <td><span style="color:green">All Fish Kings</td>
             <td><span style="color:green">All Locations</td>
+            <td><span style="color:green">All Fish Kings</td>
         </tr>
     </table>
     <h1>Monday</h1>
     <table>
         <tr>
             <th>Time</th>
+            <th>Location</th>
             <th>Fish King</th>
             <th>Bait</th>
-            <th>Location</th>
             <th>Yellow Material Drops</th>
             <th>Recipes</th>
         </tr>
         <tr>
             <td>1, 9, 17</td>
+            <td>Vulture's Vale</td>
             <td>
                 <span class="image-text">
                     <img src="images/EternalWiseCrab.png" alt="Eternal Wise Crab">
@@ -99,12 +119,14 @@
                 </span>
             </td>
             <td><span class="bait">Shining Crystal Shell</span></td>
-            <td>Vulture's Vale</td>
-            <td>1x <span class="fish-name">Omniscient Eye</span><br>1x <span class="fish-name">Wisdom Antennae</span></td>
+            <td>
+                <span class="fish-name">Omniscient Eye<br><br>Wisdom Antennae</span>
+            </td>
             <td><span class="yellow-recipe">Grand Duke</span></td>
         </tr>
         <tr>
             <td></td>
+            <td>Desolate Valley</td>
             <td>
                 <span class="image-text">
                     <img src="images/MidnightSilverside.png" alt="Midnight Silverside">
@@ -112,12 +134,14 @@
                 </span>
             </td>
             <td><span class="bait">Top Fish Head</span></td>
-            <td>Desolate Valley</td>
-            <td>1x <span class="fish-name">Silverside Scales</span></td>
-            <td><span class="gold-recipe">Shining Collosus</span></td>
+            <td>
+                <span class="fish-name">Silverside Scales</span>
+            </td>
+            <td><span class="yellow-recipe">Shining Collosus</span></td>
         </tr>
         <tr>
             <td></td>
+            <td>Snowflame Domain</td>
             <td>
                 <span class="image-text">
                     <img src="images/AncientAlligatorGar.png" alt="AncientAlligatorGar">
@@ -125,15 +149,16 @@
                 </span>
             </td>
             <td><span class="bait">Sun Idol Scarab</span></td>
-            <td>Snowflame Domain</td>
-            <td>1x <span class="fish-name">Ancient Alligator's Scale</span><br>
-            1x <span class="fish-name">Ancient Alligator's Fang</span></td>
+            <td>
+                <span class="fish-name">Ancient Alligator's Scale<br><br>Ancient Alligator's Fang</span>
+            </td>
             <td>
                 <span class="purple-recipe">Ocean Wanderer</span>
             </td>
         </tr>
         <tr>
             <td>0, 8, 16</td>
+            <td>Rainmist Reach</td>
             <td>
                 <span class="image-text">
                     <img src="images/HypnosisFrog.png" alt="HypnosisFrog">
@@ -143,11 +168,8 @@
             <td>
                 <span class="bait">Rainbow Cricket</span>
             </td>
-            <td>Rainmist Reach</td>
             <td>
-                1x <span class="fish-name">Hypnosis Skin</span>
-                    <br>1x <span class="fish-name">Hypnosis Powder</span>
-                </span>
+                <span class="fish-name">Hypnosis Skin<br><br>Hypnosis Powder</span>
             </td>
             <td>
                 <span class="yellow-recipe">Phantom Rose<br><br>Color Crusader</span>
@@ -155,6 +177,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Emerald Marsh</td>
             <td>
                 <span class="image-text">
                     <img src="images/BloodthirstyThornfang.png" alt="BloodthirstyThornfang">
@@ -164,11 +187,8 @@
             <td>
                 <span class="bait">Freshly Grilled Sirloin</span>
             </td>
-            <td>Emerald Marsh</td>
             <td>
-                1x <span class="fish-name">Bloodthirsty Skin</span>
-                <br>
-                1x <span class="fish-name">Bloodthirsty Fangs</span>
+                <span class="fish-name">Bloodthirsty Skin<br><br>Bloodthirsty Fangs</span>
             </td>
             <td>
                 <span class="yellow-recipe">Warm Heart Rod<br><br>Golden Warrior</span>
@@ -176,6 +196,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Rainbow Falls</td>
             <td>
                 <span class="image-text">
                     <img src="images/GoldenPerch.png" alt="GoldenPerch">
@@ -185,10 +206,8 @@
             <td>
                 <span class="bait">Fragrant Baby Snapper</span>
             </td>
-            <td>Rainbow Falls</td>
             <td>
-                1x <span class="fish-name">Golden Perch Fin</span><br>
-                1x <span class="fish-name">Golden Perch Fang</span>
+                <span class="fish-name">Golden Perch Fin<br><br>Golden Perch Fang</span>
             </td>
             <td>
                 <span class="purple-recipe">Fiber Optic</span>
@@ -196,6 +215,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Snowsilk Fields</td>
             <td>
                 <span class="image-text">
                     <img src="images/NetherworldHunter.png" alt="NetherworldHunter">
@@ -205,10 +225,8 @@
             <td>
                 <span class="bait">Absolute Cusk-Eel</span>
             </td>
-            <td>Snowsilk Fields</td>
             <td>
-                1x <span class="fish-name">Underworld Hunter's Fin</span><br>
-                1x <span class="fish-name">Underworld Hunter's Scale</span>
+                <span class="fish-name">Underworld Hunter's Fin<br><br>Underworld Hunter's Scale</span>
             </td>
             <td>
                 <span class="purple-recipe">Starlight and Moonglow</span>
@@ -219,14 +237,15 @@
     <table>
         <tr>
             <th>Time</th>
+            <th>Location</th>
             <th>Fish King</th>
             <th>Bait</th>
-            <th>Location</th>
             <th>Yellow Material Drops</th>
             <th>Recipes</th>
         </tr>
         <tr>
             <td>1, 9, 17</td>
+            <td>Port Skandia</td>
             <td>
                 <span class="image-text">
                     <img src="images/CopperShark.png" alt="CopperShark">
@@ -236,10 +255,8 @@
             <td>
                 <span class="bait">Prince Saury</span>
             </td>
-            <td>Port Skandia</td>
             <td>
-                1x <span class="fish-name">Copper Shark King's Teeth</span><br>
-                1x <span class="fish-name">Copper Shark King's Fin</span>
+                <span class="fish-name">Copper Shark King's Teeth<br><br>Copper Shark King's Fin</span>
             </td>
             <td>
                 <span class="yellow-recipe">King Fisher Rod<br><br>Great White (Armor)</span>
@@ -247,6 +264,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Candetonn Hill</td>
             <td>
                 <span class="image-text">
                     <img src="images/StellarBlowfish.png" alt="StellarBlowfish">
@@ -256,16 +274,16 @@
             <td>
                 <span class="bait">Oversized Squid</span>
             </td>
-            <td>Candetonn Hill</td>
             <td>
-                1x <span class="fish-name">Starlight Poison Sting</span>
+                <span class="fish-name">Starlight Poison Sting</span>
             </td>
             <td>
-                <span class="gold-recipe">Starlight Guardian</span>
+                <span class="purple-recipe">Starlight Guardian</span>
             </td>
         </tr>
         <tr>
             <td></td>
+            <td>Crescent Canyon</td>
             <td>
                 <span class="image-text">
                     <img src="images/GildedPhantom.png" alt="GildedPhantom">
@@ -275,10 +293,8 @@
             <td>
                 <span class="bait">Ultra Heat-Resistant Squid</span>
             </td>
-            <td>Crescent Canyon</td>
             <td>
-                1x <span class="fish-name">Gilded Phantom's Spine</span><br>
-                1x <span class="fish-name">Gilded Phantom's Gold Powder</span>
+                <span class="fish-name">Gilded Phantom's Spine<br><br>Gilded Phantom's Gold Powder</span>
             </td>
             <td>
                 <span class="purple-recipe">Apocalyptic</span>
@@ -286,6 +302,7 @@
         </tr>
         <tr>
             <td>0, 8, 16</td>
+            <td>Triatio Highlands</td>
             <td>
                 <span class="image-text">
                     <img src="images/KingSandCrab.png" alt="KingSandCrab">
@@ -295,10 +312,8 @@
             <td>
                 <span class="bait">Wriggling River Snail</span>
             </td>
-            <td>Triatio Highlands</td>
             <td>
-                1x <span class="fish-name">King Crab Claw</span><br>
-                1x <span class="fish-name">King Crab Shell</span>
+                <span class="fish-name">King Crab Claw<br><br>King Crab Shell</span>
             </td>
             <td>
                 <span class="yellow-recipe">Crustacean Warrior (Armor)</span>
@@ -306,6 +321,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Ice-Sealed Mountains</td>
             <td>
                 <span class="image-text">
                     <img src="images/WarmGoldCrab.png" alt="WarmGoldCrab">
@@ -315,10 +331,8 @@
             <td>
                 <span class="bait">Floral Koi</span>
             </td>
-            <td>Ice-Sealed Mountains</td>
             <td>
-                1x <span class="fish-name">Warm Gold Crab's Yolk</span><br>
-                1x <span class="fish-name">Warm Gold Crab's Pincers</span>
+                <span class="fish-name">Warm Gold Crab's Yolk<br><br>Warm Gold Crab's Pincers</span>
             </td>
             <td>
                 <span class="purple-recipe">Silent Line</span>
@@ -326,6 +340,7 @@
         </tr>
         <tr>
             <td></td>
+            <td>Silent Ridge</td>
             <td>
                 <span class="image-text">
                     <img src="images/SnowRidgeDragon.png" alt="SnowRidgeDragon">
@@ -334,15 +349,591 @@
             <td>
                 <span class="bait">Clowdy Snow Turtle</span>
             </td>
-            <td>Silent Ridge</td>
             <td>
-                1x <span class="fish-name">Snow Ridge Dragon's Scales</span><br>
-                1x <span class="fish-name">Snow Ridge Dragon's Shell</span>
+                <span class="fish-name">Snow Ridge Dragon's Scales<br><br>Snow Ridge Dragon's Shell</span>
             </td>
             <td>
                 <span class="purple-recipe">Snow Lake</span>
             </td>
         </tr>
     </table>
+    <h1>Wednesday</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Fish King</th>
+            <th>Bait</th>
+            <th>Yellow Material Drops</th>
+            <th>Recipes</th>
+        </tr>
+        <tr>
+            <td>1, 9, 17</td>
+            <td>Helonia Coast</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/DeepSeaTuna.png" alt="DeepSeaTuna">
+                    <span class="fish-name">Deep Sea Tuna</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Small Fluorescent Squid</span>
+            </td>
+            <td>
+                <span class="fish-name">Deep Sea Tuna Scale<br><br>Anti-pressure Fish Skin</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Deep Sea (Helmet/Boots)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Timestream Forest</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/ShadowButterflyFish.png" alt="ShadowButterflyFish">
+                    <span class="fish-name">Shadow Butterfly Fish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Neon Coral</span>
+            </td>
+            <td>
+                <span class="fish-name">Premium Butterfly Fish Oil<br><br>Colorful Gleaming Scale</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Realm of Selflessness Rod<br><br>Phantom Magitronix</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Secret Lake</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GoldenTemptation.png" alt="GoldenTemptation">
+                    <span class="fish-name">Golden Temptation</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Thick-scented Fluorescent Fish</span>
+            </td>
+            <td>
+                <span class="fish-name">Golden Temptation Eyeball<br><br>Golden Temptations' Seductive Fangs</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Echoing</span>
+            </td>
+        </tr>
+        <tr>
+            <td>0, 8, 16</td>
+            <td>Candeo Marsh</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GiantMarshTrout.png" alt="GiantMarshTrout">
+                    <span class="fish-name">Giant Marsh Trout</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Fresh Marsh Shrimp</span>
+            </td>
+            <td>
+                <span class="fish-name">Live Marsh Waterweed<br><br>Mud-filtering Teeth</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Great White (Gloves)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Starstruck Plateau</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/CrimsonWispJellyfish.png" alt="CrimsonWispJellyfish">
+                    <span class="fish-name">Crimson Wisp Jellyfish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Coral Red Fish</span>
+            </td>
+            <td>
+                <span class="fish-name">Crimson Body<br><br>Crimson Tentacle</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Glacial Moon<br><br>Scarlet Champion</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Crimson Sakura Lair</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GiantCalciteSpeartail.png" alt="GiantCalciteSpeartail">
+                    <span class="fish-name">Giant Calcite Speartail</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Bloodthirsty Snipe Eel</span>
+            </td>
+            <td>
+                <span class="fish-name">Giant Calcite Speartail's Scales<br><br>Giant Calcite Speartail's Tail</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Golden Phoenix</span>
+            </td>
+        </tr>
+    </table>
+    <h1>Thursday</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Fish King</th>
+            <th>Bait</th>
+            <th>Yellow Material Drops</th>
+            <th>Recipes</th>
+        </tr>
+        <tr>
+            <td>1, 9, 17</td>
+            <td>Crescent Hill</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GoldenPetalFish.png" alt="GoldenPetalFish">
+                    <span class="fish-name">Golden Petal Fish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Golden Petal</span>
+            </td>
+            <td>
+                <span class="fish-name">Petal-shaped Gold Scale</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Crustacean Warrior (Helmet/Boots)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Port Morton</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/IroncladSwordfish.png" alt="IroncladSwordfish">
+                    <span class="fish-name">Ironclad Swordfish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Live Emperor Fish</span>
+            </td>
+            <td>
+                <span class="fish-name">Iron-Armor Long Jaw</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Chrome Knight</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Sunset Ridge</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GoldstreamGuardian.png" alt="GoldstreamGuardian">
+                    <span class="fish-name">Goldstream Guardian</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Pink Fragrant Shrimp</span>
+            </td>
+            <td>
+                <span class="fish-name">Goldstream Guardian Skin<br><br>Goldstream Guardian Fin</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Dreaming</span>
+            </td>
+        </tr>
+        <tr>
+            <td>0, 8, 16</td>
+            <td>Ventos Praire</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/RainbowSalmon.png" alt="RainbowSalmon">
+                    <span class="fish-name">Rainbow Salmon</span>
+            </td>
+            <td>
+                <span class="bait">Giant Black Mayfly</span>
+            </td>
+            <td>
+                <span class="fish-name">Rainbow Scale<br><br>Rainbow Teardrop</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Royal Rainbow Rod<br><br>Deep Sea (Chest)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Crystal Lake Waterfall</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Glimmershade.png" alt="Glimmershade">
+                    <span class="fish-name">Glimmershade</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Aqualord Reshade</span>
+            </td>
+            <td>
+                <span class="fish-name">Suckermouth Catfish Meat (?)<br><br>Giant Energized Fish Bones (?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Astral</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Ghostly Hill</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/ArmoredRanger.png" alt="ArmoredRanger">
+                    <span class="fish-name">Armored Ranger</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Bright Large-Bellied Guppy</span>
+            </td>
+            <td>
+                <span class="fish-name">Armored Ranger Scales<br><br>Armored Ranger Fish Oil</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Shining Moon</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Ashen Blood Swamp</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/SplendidPredator.png" alt="SplendidPredator">
+                    <span class="fish-name">Splendid Predator</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Dragon Bird Snow Shrimp</span>
+            </td>
+            <td>
+                <span class="fish-name"></span>
+            </td>
+            <td>
+                <span class="purple-recipe">Original Sin</span>
+            </td>
+        </tr>
+    </table>
+    <h1>Friday</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Fish King</th>
+            <th>Bait</th>
+            <th>Yellow Material Drops</th>
+            <th>Recipes</th>
+        </tr>
+        <tr>
+            <td>1, 9, 17</td>
+            <td>Cactakara Forest</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/AncientMandarinFish.png" alt="AncientMandarinFish">
+                    <span class="fish-name">Ancient Mandarin Fish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Magic Fig</span>
+            </td>
+            <td>
+                <span class="fish-name">Ancient Gastrolith (?)<br><br>Fossilized Scale (?)</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Crustacean Warrior (Gloves)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Sunhunter's Canyon</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/FlareTuna.png" alt="FlareTuna">
+                    <span class="fish-name">Flare Tuna</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Tyrant Nautilus</span>
+            </td>
+            <td>
+                <span class="fish-name">Golden Fish Fin (?)<br><br>Eye of Precision (?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Reaper</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Desert Valley</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/BlessedTurtle.png" alt="BlessedTurtle">
+                    <span class="fish-name">Blessed Turtle</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Peach-colored Shell</span>
+            </td>
+            <td>
+                <span class="fish-name">Good Luck Goldie's Claws (?)<br><br>Good Luck Goldie's Reinforced Shell
+                    (?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Swaying Boat</span>
+            </td>
+        </tr>
+        <tr>
+            <td>0, 8, 16</td>
+            <td>Star Sand Desert</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/WaterfallCatfish.png" alt="WaterfallCatfish">
+                    <span class="fish-name">Waterfall Catfish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Green Leech</span>
+            </td>
+            <td>
+                <span class="fish-name">Waterfall Catfish Mucus<br><br>Millennium Barbels</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Daze Rod</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Silent Ice Field</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/IceFieldContinentTurtle.png" alt="IceFieldContinentTurtle">
+                    <span class="fish-name">Ice Field Continent Turtle</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Princess Hardscale Fish</span>
+            </td>
+            <td>
+                <span class="fish-name">Ice Field Continent Turtle Shell<br><br>Ice Field Continent Turtle Armor</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Poseidon</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Sacred Valley</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/FlashingDawn.png" alt="FlashingDawn">
+                    <span class="fish-name">Flashing Dawn</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Dazzling Rainbow Fish</span>
+            </td>
+            <td>
+                <span class="fish-name">Flashing Dawn's Pins<br><br>Flashing Dawn's Membrane</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Imprisonment</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Fiendish Barrens</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/GoldsmithDolphinfish.png" alt="GoldsmithDolphinfish">
+                    <span class="fish-name">Goldsmith Dolphinfish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Elusive Mackerel</span>
+            </td>
+            <td>
+                <span class="fish-name">Golden bones of the Golden Mahi Mahi (?)<br><br>Golden Mahi Mahi's fish fin
+                    (?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Scarlet Night</span>
+            </td>
+        </tr>
+    </table>
+    <h1>Saturday</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Fish King</th>
+            <th>Bait</th>
+            <th>Yellow Material Drops</th>
+            <th>Recipes</th>
+        </tr>
+        <tr>
+            <td>1, 9, 17</td>
+            <td>Demarech Mines</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Mutant Crystal Lobster.png" alt="Mutant Crystal Lobster">
+                    <span class="fish-name">Mutant Crystal Lobster</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Forked-Tail Loach</span>
+            </td>
+            <td>
+                <span class="fish-name">Crystal Lobster Shell</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Crustacean Warrior (Gloves)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Viridian Steppe</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Phantom Devilfish.png" alt="Phantom Devilfish">
+                    <span class="fish-name">Phantom Devilfish</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Silver Cap Empress</span>
+            </td>
+            <td>
+                <span class="fish-name">Demon's White Skin<br><br>Demonic Bloody Mouth</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Scarlet Devil</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Sleeping Valley</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Immemorial Descendant.png" alt="Immemorial Descendant">
+                    <span class="fish-name">Immemorial Descendant</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Royal Carpetshark</span>
+            </td>
+            <td>
+                <span class="fish-name">Immemorial Descendant's Shell<br><br>Immemorial Descendant's Fangs</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Daybreak</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Hazy Hell Forest</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Mudstone-Eating Anchor.png" alt="Mudstone-Eating Anchor">
+                    <span class="fish-name">Mudstone-Eating Anchor</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Rainbow Salmon Roe</span>
+            </td>
+            <td>
+                <span class="fish-name">(?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Vivid Dreamer's</span>
+            </td>
+        </tr>
+        <tr>
+            <td>0, 8, 16</td>
+            <td>Star Sand Desert</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Giant Sand Perch.png" alt="Giant Sand Perch">
+                    <span class="fish-name">Giant Sand Perch</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Lively Grass Carp</span>
+            </td>
+            <td>
+                <span class="fish-name">Pure Sand Grains (?)<br><br>Reflective Fish Skin (?)</span>
+            </td>
+            <td>
+                <span class="yellow-recipe">Great White (Helmet/Boots)</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Tempest Desert</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Desert Snakehead.png" alt="Desert Snakehead">
+                    <span class="fish-name">Desert Snakehead</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Patterned Pink Shell</span>
+            </td>
+            <td>
+                <span class="fish-name">Mystic Violet Fish Eye<br><br>Demonic Red Fish Eggs</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Lord of Barren Rod<br><br>Raging Riptide</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Emerald Peak</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Snakehead Overlord.png" alt="Snakehead Overlord">
+                    <span class="fish-name">Snakehead Overlord</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Plump Frog Overlord</span>
+            </td>
+            <td>
+                <span class="fish-name">King Arowana Fin (?)<br><br>King Arowana Fangs (?)</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Dazzling Sun</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Vivid Dragon Riverscape</td>
+            <td>
+                <span class="image-text">
+                    <img src="images/Cruiser Remora.png" alt="Cruiser Remora">
+                    <span class="fish-name">Cruiser Remora</span>
+                </span>
+            </td>
+            <td>
+                <span class="bait">Floral Swallow</span>
+            </td>
+            <td>
+                <span class="fish-name">Suction Cups of the Cruiser Longfish (?)<br><br>Cruiser Chief's Fish Fin</span>
+            </td>
+            <td>
+                <span class="purple-recipe">Forest Flower</span>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
