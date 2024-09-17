@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%AA%3C/text%3E%3C/svg%3E"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKTO Fishing Schedule</title>
+    <title>AKTO Fish King Schedule</title>
     <style>
         body {
             background-color: #1f1f1f;
@@ -73,19 +74,88 @@
             text-shadow: black 1px 0 1px;
         }
 
-        .gold-recipe {
-            color: #E69138;
-            text-shadow: black 1px 0 1px;
-        }
-
         .purple-recipe {
             color: #b4489f;
             text-shadow: black 1px 0 1px;
+        }
+        
+        #clock {
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid rgb(0, 255, 13);
+            display: inline-block;
+            border-radius: 25px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .navbar-logo {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar-links a {
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar-links a:hover {
+            background-color: #575757;
+            color: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        .TYBR img {
+            width: auto;
+            height: 100px
         }
     </style>
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="navbar-logo">AKTO Fish King Schedule</div>
+        <div class="navbar-links">
+            <a target="_blank" href="https://docs.google.com/spreadsheets/d/1EOnM6VWPcqOXkDrRsw1sX4d2bOJ4PBf5avrmAtOPfXY/edit?gid=762269620#gid=762269620">AKTO References (Google doc)</a>
+        </div>
+    </div>
+    <div id="clock"></div>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            const dayName = days[now.getDay()];
+            const hours = String(now.getUTCHours() + 1).padStart(2, '0');
+            const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+            const seconds = String(now.getUTCSeconds()).padStart(2, '0');
+            const formattedString = `Server time: ${dayName}, ${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = formattedString;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+    <div class="TYBR">
+        <img src="tybr.webp" alt="tybr">
+    </div>
     <h1>Sunday</h1>
     <table>
         <tr>
