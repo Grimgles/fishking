@@ -39,6 +39,9 @@
         td:nth-child(3) {
             text-align: left;
         }
+        td:nth-child(4) {
+            text-align: left;
+        }
 
         th {
             background-color: #131313;
@@ -48,9 +51,10 @@
             background-color: #1b1b1b;
         }
 
-        .image-text {
+        .item-icon {
             display: inline-block;
             vertical-align: middle;
+            position: relative;
         }
 
         img {
@@ -184,12 +188,17 @@
             <td>1, 9, 17</td>
             <td>Vulture's Vale</td>
             <td>
-                <span class="image-text">
-                    <img src="images/EternalWiseCrab.png" alt="Eternal Wise Crab">
-                    <span class="fish-name">Eternal Wise Crab</span>
+                <div class="item-icon">
+                    <img src="images/FK/EternalWiseCrab.png" alt="Eternal Wise Crab">
+                </div>
+                <span class="fish-name">Eternal Wise Crab</span>
+            </td>
+            <td>
+                <span class="item-icon">
+                    <img src="images/Baits/Shining Crystal Shell.png" alt="Shining Crystal Shell">
+                    <span class="bait">Shining Crystal Shell</span>
                 </span>
             </td>
-            <td><span class="bait">Shining Crystal Shell</span></td>
             <td>
                 <span class="fish-name">Omniscient Eye<br><br>Wisdom Antennae</span>
             </td>
@@ -199,12 +208,16 @@
             <td></td>
             <td>Desolate Valley</td>
             <td>
-                <span class="image-text">
-                    <img src="images/MidnightSilverside.png" alt="Midnight Silverside">
+                <span class="item-icon">
+                    <img src="images/FK/MidnightSilverside.png" alt="Midnight Silverside">
                     <span class="fish-name">Midnight Silverside</span>
                 </span>
             </td>
-            <td><span class="bait">Top Fish Head</span></td>
+            <td>
+                <span class="item-icon">
+                    <img src="images/Baits/Top Fish Head.png" alt="Top Fish Head">
+                    <span class="bait">Top Fish Head</span>
+                </span></td>
             <td>
                 <span class="fish-name">Silverside Scales</span>
             </td>
@@ -214,12 +227,17 @@
             <td></td>
             <td>Snowflame Domain</td>
             <td>
-                <span class="image-text">
-                    <img src="images/AncientAlligatorGar.png" alt="AncientAlligatorGar">
+                <span class="item-icon">
+                    <img src="images/FK/AncientAlligatorGar.png" alt="AncientAlligatorGar">
                     <span class="fish-name">Ancient Alligator</span>
                 </span>
             </td>
-            <td><span class="bait">Sun Idol Scarab</span></td>
+            <td>
+                <span class="item-icon">
+                    <img src="images/Baits/Sun Idol Scarab.png" alt="Sun Idol Scarab">
+                    <span class="bait">Sun Idol Scarab</span>
+                </span>
+            </td>
             <td>
                 <span class="fish-name">Ancient Alligator's Scale<br><br>Ancient Alligator's Fang</span>
             </td>
@@ -231,13 +249,16 @@
             <td>0, 8, 16</td>
             <td>Rainmist Reach</td>
             <td>
-                <span class="image-text">
-                    <img src="images/HypnosisFrog.png" alt="HypnosisFrog">
+                <span class="item-icon">
+                    <img src="images/FK/HypnosisFrog.png" alt="HypnosisFrog">
                     <span class="fish-name">Hypnosis Frog</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Rainbow Cricket</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Rainbow Cricket.png" alt="Cricket">
+                    <span class="bait">Rainbow Cricket</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Hypnosis Skin<br><br>Hypnosis Powder</span>
@@ -250,13 +271,16 @@
             <td></td>
             <td>Emerald Marsh</td>
             <td>
-                <span class="image-text">
-                    <img src="images/BloodthirstyThornfang.png" alt="BloodthirstyThornfang">
+                <span class="item-icon">
+                    <img src="images/FK/BloodthirstyThornfang.png" alt="BloodthirstyThornfang">
                     <span class="fish-name">Bloodthirsty Thornfang</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Freshly Grilled Sirloin</span>
+                <span class="item-icon">
+                    <img src="images/baits/Freshly Grilled Sirloin.png" alt="Sirloin">
+                    <span class="bait">Freshly Grilled Sirloin</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Bloodthirsty Skin<br><br>Bloodthirsty Fangs</span>
@@ -269,13 +293,16 @@
             <td></td>
             <td>Rainbow Falls</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GoldenPerch.png" alt="GoldenPerch">
+                <span class="item-icon">
+                    <img src="images/FK/GoldenPerch.png" alt="GoldenPerch">
                     <span class="fish-name">Golden Floral Perch</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Fragrant Baby Snapper</span>
+                <span class="item-icon">
+                    <img src="images/baits/Fragrant Baby Snapper.png">
+                    <span class="bait">Fragrant Baby Snapper</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Golden Perch Fin<br><br>Golden Perch Fang</span>
@@ -288,13 +315,16 @@
             <td></td>
             <td>Snowsilk Fields</td>
             <td>
-                <span class="image-text">
-                    <img src="images/NetherworldHunter.png" alt="NetherworldHunter">
+                <span class="item-icon">
+                    <img src="images/FK/NetherworldHunter.png" alt="NetherworldHunter">
                     <span class="fish-name">Underworld Hunter</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Absolute Cusk-Eel</span>
+                <span class="item-icon">
+                    <img src="images/baits/Absolute Cusk-Eel.png">
+                    <span class="bait">Absolute Cusk-Eel</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Underworld Hunter's Fin<br><br>Underworld Hunter's Scale</span>
@@ -318,13 +348,16 @@
             <td>1, 9, 17</td>
             <td>Port Skandia</td>
             <td>
-                <span class="image-text">
-                    <img src="images/CopperShark.png" alt="CopperShark">
+                <span class="item-icon">
+                    <img src="images/FK/CopperShark.png" alt="CopperShark">
                     <span class="fish-name">Copper Shark King</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Prince Saury</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Prince Saury.png" alt="Saury">
+                    <span class="bait">Prince Saury</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Copper Shark King's Teeth<br><br>Copper Shark King's Fin</span>
@@ -337,13 +370,16 @@
             <td></td>
             <td>Candetonn Hill</td>
             <td>
-                <span class="image-text">
-                    <img src="images/StellarBlowfish.png" alt="StellarBlowfish">
+                <span class="item-icon">
+                    <img src="images/FK/StellarBlowfish.png" alt="StellarBlowfish">
                     <span class="fish-name">Stellar Blowfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Oversized Squid</span>
+                <span class="item-name">
+                    <img src="images/Baits/Oversized Squid.png" alt="Squid">
+                    <span class="bait">Oversized Squid</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Starlight Poison Sting</span>
@@ -356,13 +392,16 @@
             <td></td>
             <td>Crescent Canyon</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GildedPhantom.png" alt="GildedPhantom">
+                <span class="item-icon">
+                    <img src="images/FK/GildedPhantom.png" alt="GildedPhantom">
                     <span class="fish-name">Gilded Phantom</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Ultra Heat-Resistant Squid</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Ultra Heat-Resistant Squid.png" alt="Squid">
+                    <span class="bait">Ultra Heat-Resistant Squid</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Gilded Phantom's Spine<br><br>Gilded Phantom's Gold Powder</span>
@@ -375,13 +414,16 @@
             <td>0, 8, 16</td>
             <td>Triatio Highlands</td>
             <td>
-                <span class="image-text">
-                    <img src="images/KingSandCrab.png" alt="KingSandCrab">
+                <span class="item-icon">
+                    <img src="images/FK/KingSandCrab.png" alt="KingSandCrab">
                     <span class="fish-name">King Sand Crab</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Wriggling River Snail</span>
+                <span class="item-name">
+                    <img src="images/Baits/Wriggling River Snail.png" alt="Wriggling snail">
+                    <span class="bait">Wriggling River Snail</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">King Crab Claw<br><br>King Crab Shell</span>
@@ -394,13 +436,16 @@
             <td></td>
             <td>Ice-Sealed Mountains</td>
             <td>
-                <span class="image-text">
-                    <img src="images/WarmGoldCrab.png" alt="WarmGoldCrab">
+                <span class="item-icon">
+                    <img src="images/FK/WarmGoldCrab.png" alt="WarmGoldCrab">
                     <span class="fish-name">Warm Gold Crab</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Floral Koi</span>
+                <span class="item-name">
+                    <img src="images/Baits/Floral Koi.png">
+                    <span class="bait">Floral Koi</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Warm Gold Crab's Yolk<br><br>Warm Gold Crab's Pincers</span>
@@ -413,12 +458,15 @@
             <td></td>
             <td>Silent Ridge</td>
             <td>
-                <span class="image-text">
-                    <img src="images/SnowRidgeDragon.png" alt="SnowRidgeDragon">
+                <span class="item-icon">
+                    <img src="images/FK/SnowRidgeDragon.png" alt="SnowRidgeDragon">
                     <span class="fish-name">Snow Ridge Dragon</span>
             </td>
             <td>
-                <span class="bait">Clowdy Snow Turtle</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Cloudy Snow Turtle.png">
+                    <span class="bait">Clowdy Snow Turtle</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Snow Ridge Dragon's Scales<br><br>Snow Ridge Dragon's Shell</span>
@@ -442,13 +490,16 @@
             <td>1, 9, 17</td>
             <td>Helonia Coast</td>
             <td>
-                <span class="image-text">
-                    <img src="images/DeepSeaTuna.png" alt="DeepSeaTuna">
+                <span class="item-icon">
+                    <img src="images/FK/DeepSeaTuna.png" alt="DeepSeaTuna">
                     <span class="fish-name">Deep Sea Tuna</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Small Fluorescent Squid</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Small Fluorescent Squid.png">
+                    <span class="bait">Small Fluorescent Squid</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Deep Sea Tuna Scale<br><br>Anti-pressure Fish Skin</span>
@@ -461,13 +512,16 @@
             <td></td>
             <td>Timestream Forest</td>
             <td>
-                <span class="image-text">
-                    <img src="images/ShadowButterflyFish.png" alt="ShadowButterflyFish">
+                <span class="item-icon">
+                    <img src="images/FK/ShadowButterflyFish.png" alt="ShadowButterflyFish">
                     <span class="fish-name">Shadow Butterfly Fish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Neon Coral</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Neon Coral.png">
+                    <span class="bait">Neon Coral</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Premium Butterfly Fish Oil<br><br>Colorful Gleaming Scale</span>
@@ -480,13 +534,16 @@
             <td></td>
             <td>Secret Lake</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GoldenTemptation.png" alt="GoldenTemptation">
+                <span class="item-icon">
+                    <img src="images/FK/GoldenTemptation.png" alt="GoldenTemptation">
                     <span class="fish-name">Golden Temptation</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Thick-scented Fluorescent Fish</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Thick-scented Flourescent Fish.png">
+                    <span class="bait">Thick-scented Fluorescent Fish</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Golden Temptation Eyeball<br><br>Golden Temptations' Seductive Fangs</span>
@@ -499,13 +556,16 @@
             <td>0, 8, 16</td>
             <td>Candeo Marsh</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GiantMarshTrout.png" alt="GiantMarshTrout">
+                <span class="item-icon">
+                    <img src="images/FK/GiantMarshTrout.png" alt="GiantMarshTrout">
                     <span class="fish-name">Giant Marsh Trout</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Fresh Marsh Shrimp</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Fresh Marsh Shrimp.png" alt="">
+                    <span class="bait">Fresh Marsh Shrimp</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Live Marsh Waterweed<br><br>Mud-filtering Teeth</span>
@@ -518,13 +578,16 @@
             <td></td>
             <td>Starstruck Plateau</td>
             <td>
-                <span class="image-text">
-                    <img src="images/CrimsonWispJellyfish.png" alt="CrimsonWispJellyfish">
+                <span class="item-icon">
+                    <img src="images/FK/CrimsonWispJellyfish.png" alt="CrimsonWispJellyfish">
                     <span class="fish-name">Crimson Wisp Jellyfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Coral Red Fish</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Coral Red Fish.png">
+                    <span class="bait">Coral Red Fish</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Crimson Body<br><br>Crimson Tentacle</span>
@@ -537,13 +600,16 @@
             <td></td>
             <td>Crimson Sakura Lair</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GiantCalciteSpeartail.png" alt="GiantCalciteSpeartail">
+                <span class="item-icon">
+                    <img src="images/FK/GiantCalciteSpeartail.png" alt="GiantCalciteSpeartail">
                     <span class="fish-name">Giant Calcite Speartail</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Bloodthirsty Snipe Eel</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Bloodthirsty Snipe Eel.png" alt="">
+                    <span class="bait">Bloodthirsty Snipe Eel</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Giant Calcite Speartail's Scales<br><br>Giant Calcite Speartail's Tail</span>
@@ -567,13 +633,16 @@
             <td>1, 9, 17</td>
             <td>Crescent Hill</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GoldenPetalFish.png" alt="GoldenPetalFish">
+                <span class="item-icon">
+                    <img src="images/FK/GoldenPetalFish.png" alt="GoldenPetalFish">
                     <span class="fish-name">Golden Petal Fish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Golden Petal</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Golden Petal.png" alt="">
+                    <span class="bait">Golden Petal</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Petal-shaped Gold Scale</span>
@@ -586,13 +655,16 @@
             <td></td>
             <td>Port Morton</td>
             <td>
-                <span class="image-text">
-                    <img src="images/IroncladSwordfish.png" alt="IroncladSwordfish">
+                <span class="item-icon">
+                    <img src="images/FK/IroncladSwordfish.png" alt="IroncladSwordfish">
                     <span class="fish-name">Ironclad Swordfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Live Emperor Fish</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Live Emperor Fish.png" alt="">
+                    <span class="bait">Live Emperor Fish</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Iron-Armor Long Jaw</span>
@@ -605,13 +677,16 @@
             <td></td>
             <td>Sunset Ridge</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GoldstreamGuardian.png" alt="GoldstreamGuardian">
+                <span class="item-icon">
+                    <img src="images/FK/GoldstreamGuardian.png" alt="GoldstreamGuardian">
                     <span class="fish-name">Goldstream Guardian</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Pink Fragrant Shrimp</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Pink Fragrant Shrimp.png" alt="">
+                    <span class="bait">Pink Fragrant Shrimp</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Goldstream Guardian Skin<br><br>Goldstream Guardian Fin</span>
@@ -624,12 +699,15 @@
             <td>0, 8, 16</td>
             <td>Ventos Praire</td>
             <td>
-                <span class="image-text">
-                    <img src="images/RainbowSalmon.png" alt="RainbowSalmon">
+                <span class="item-icon">
+                    <img src="images/FK/RainbowSalmon.png" alt="RainbowSalmon">
                     <span class="fish-name">Rainbow Salmon</span>
             </td>
             <td>
-                <span class="bait">Giant Black Mayfly</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Giant Black Mayfly.png" alt="">
+                    <span class="bait">Giant Black Mayfly</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Rainbow Scale<br><br>Rainbow Teardrop</span>
@@ -642,13 +720,16 @@
             <td></td>
             <td>Crystal Lake Waterfall</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Glimmershade.png" alt="Glimmershade">
+                <span class="item-icon">
+                    <img src="images/FK/Glimmershade.png" alt="Glimmershade">
                     <span class="fish-name">Glimmershade</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Aqualord Reshade</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Aqualord Redshade.png" alt="">
+                    <span class="bait">Aqualord Reshade</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Suckermouth Catfish Meat<br><br>Giant Energized Fish Bones</span>
@@ -661,13 +742,16 @@
             <td></td>
             <td>Ghostly Hill</td>
             <td>
-                <span class="image-text">
-                    <img src="images/ArmoredRanger.png" alt="ArmoredRanger">
+                <span class="item-icon">
+                    <img src="images/FK/ArmoredRanger.png" alt="ArmoredRanger">
                     <span class="fish-name">Armored Ranger</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Bright Large-Bellied Guppy</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Bright Large-Bellied Guppy.png" alt="">
+                    <span class="bait">Bright Large-Bellied Guppy</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Armored Ranger Scales<br><br>Armored Ranger Fish Oil</span>
@@ -680,13 +764,16 @@
             <td></td>
             <td>Ashen Blood Swamp</td>
             <td>
-                <span class="image-text">
-                    <img src="images/FieryLionfish.png" alt="FieryLionfish">
+                <span class="item-icon">
+                    <img src="images/FK/FieryLionfish.png" alt="FieryLionfish">
                     <span class="fish-name">Fiery Lionfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Dragon Bird Snow Shrimp</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Dragon Bird Snow Shrimp.png" alt="">
+                    <span class="bait">Dragon Bird Snow Shrimp</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Fiery Lionfish's Barb<br><br>Fiery Lionfish's Toxic Barbs</span>
@@ -710,13 +797,16 @@
             <td>1, 9, 17</td>
             <td>Cactakara Forest</td>
             <td>
-                <span class="image-text">
-                    <img src="images/AncientMandarinFish.png" alt="AncientMandarinFish">
+                <span class="item-icon">
+                    <img src="images/FK/AncientMandarinFish.png" alt="AncientMandarinFish">
                     <span class="fish-name">Ancient Mandarin Fish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Magic Fig</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Magic Fig.png" alt="">
+                    <span class="bait">Magic Fig</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Ancient Gastrolith (?)<br><br>Fossilized Scale (?)</span>
@@ -729,13 +819,16 @@
             <td></td>
             <td>Sunhunter's Canyon</td>
             <td>
-                <span class="image-text">
-                    <img src="images/FlareTuna.png" alt="FlareTuna">
+                <span class="item-icon">
+                    <img src="images/FK/FlareTuna.png" alt="FlareTuna">
                     <span class="fish-name">Flare Tuna</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Tyrant Nautilus</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Tyrant Nautilus.png" alt="">
+                    <span class="bait">Tyrant Nautilus</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Golden Fish Fin (?)<br><br>Eye of Precision (?)</span>
@@ -748,13 +841,16 @@
             <td></td>
             <td>Desert Valley</td>
             <td>
-                <span class="image-text">
-                    <img src="images/BlessedTurtle.png" alt="BlessedTurtle">
+                <span class="item-icon">
+                    <img src="images/FK/BlessedTurtle.png" alt="BlessedTurtle">
                     <span class="fish-name">Blessed Turtle</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Peach-colored Shell</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Peach-colored Shell.png" alt="">
+                    <span class="bait">Peach-colored Shell</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Good Luck Goldie's Claws (?)<br><br>Good Luck Goldie's Reinforced Shell
@@ -768,13 +864,16 @@
             <td>0, 8, 16</td>
             <td>Star Sand Desert</td>
             <td>
-                <span class="image-text">
-                    <img src="images/WaterfallCatfish.png" alt="WaterfallCatfish">
+                <span class="item-icon">
+                    <img src="images/FK/WaterfallCatfish.png" alt="WaterfallCatfish">
                     <span class="fish-name">Waterfall Catfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Green Leech</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Green Leech.png" alt="">
+                    <span class="bait">Green Leech</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Waterfall Catfish Mucus<br><br>Millennium Barbels</span>
@@ -787,13 +886,16 @@
             <td></td>
             <td>Silent Ice Field</td>
             <td>
-                <span class="image-text">
-                    <img src="images/IceFieldContinentTurtle.png" alt="IceFieldContinentTurtle">
+                <span class="item-icon">
+                    <img src="images/FK/IceFieldContinentTurtle.png" alt="IceFieldContinentTurtle">
                     <span class="fish-name">Ice Field Continent Turtle</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Princess Hardscale Fish</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Princess Hardscale Fish.png" alt="">
+                    <span class="bait">Princess Hardscale Fish</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Ice Field Continent Turtle Shell<br><br>Ice Field Continent Turtle Armor</span>
@@ -806,13 +908,16 @@
             <td></td>
             <td>Sacred Valley</td>
             <td>
-                <span class="image-text">
-                    <img src="images/FlashingDawn.png" alt="FlashingDawn">
+                <span class="item-icon">
+                    <img src="images/FK/FlashingDawn.png" alt="FlashingDawn">
                     <span class="fish-name">Flashing Dawn</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Dazzling Rainbow Fish</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Dazzling Rainbow Fish.png" alt="">
+                    <span class="bait">Dazzling Rainbow Fish</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Flashing Dawn's Pins<br><br>Flashing Dawn's Membrane</span>
@@ -825,13 +930,16 @@
             <td></td>
             <td>Fiendish Barrens</td>
             <td>
-                <span class="image-text">
-                    <img src="images/GoldsmithDolphinfish.png" alt="GoldsmithDolphinfish">
+                <span class="item-icon">
+                    <img src="images/FK/GoldsmithDolphinfish.png" alt="GoldsmithDolphinfish">
                     <span class="fish-name">Goldsmith Dolphinfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Elusive Mackerel</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Elusive Mackerel.png" alt="">
+                    <span class="bait">Elusive Mackerel</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Goldsmith Dolphinfish’s Golden Bones<br><br>Goldsmith Dolphinfish’s Fins</span>
@@ -855,13 +963,16 @@
             <td>1, 9, 17</td>
             <td>Demarech Mines</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Mutant Crystal Lobster.png" alt="Mutant Crystal Lobster">
+                <span class="item-icon">
+                    <img src="images/FK/Mutant Crystal Lobster.png" alt="Mutant Crystal Lobster">
                     <span class="fish-name">Mutant Crystal Lobster</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Forked-Tail Loach</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Forked-Tail Loach.png" alt="">
+                    <span class="bait">Forked-Tail Loach</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Crystal Lobster Shell</span>
@@ -874,13 +985,16 @@
             <td></td>
             <td>Viridian Steppe</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Phantom Devilfish.png" alt="Phantom Devilfish">
+                <span class="item-icon">
+                    <img src="images/FK/Phantom Devilfish.png" alt="Phantom Devilfish">
                     <span class="fish-name">Phantom Devilfish</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Silver Cap Empress</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Silver Cap Empress.png" alt="">
+                    <span class="bait">Silver Cap Empress</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Demon's White Skin<br><br>Demonic Bloody Mouth</span>
@@ -893,13 +1007,16 @@
             <td></td>
             <td>Sleeping Valley</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Immemorial Descendant.png" alt="Immemorial Descendant">
+                <span class="item-icon">
+                    <img src="images/FK/Immemorial Descendant.png" alt="Immemorial Descendant">
                     <span class="fish-name">Immemorial Descendant</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Royal Carpetshark</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Royal Carpetshark.png" alt="">
+                    <span class="bait">Royal Carpetshark</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Immemorial Descendant's Shell<br><br>Immemorial Descendant's Fangs</span>
@@ -912,13 +1029,16 @@
             <td></td>
             <td>Hazy Hell Forest</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Anchorfish.png" alt="Mudstone-Eating Anchor">
+                <span class="item-icon">
+                    <img src="images/FK/Anchorfish.png" alt="Mudstone-Eating Anchor">
                     <span class="fish-name">Mudstone-Eating Anchor</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Rainbow Salmon Roe</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Rainbow Salmon Roe.png" alt="">
+                    <span class="bait">Rainbow Salmon Roe</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Anchor Sculpin's Thick Lips<br><br>Anchor Sculpin's Fan Fin</span>
@@ -931,13 +1051,16 @@
             <td>0, 8, 16</td>
             <td>Star Sand Desert</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Giant Sand Perch.png" alt="Giant Sand Perch">
+                <span class="item-icon">
+                    <img src="images/FK/Giant Sand Perch.png" alt="Giant Sand Perch">
                     <span class="fish-name">Giant Sand Perch</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Lively Grass Carp</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Lively Grass Carp.png" alt="">
+                    <span class="bait">Lively Grass Carp</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Pure Sand Grains<br><br>Camouflaged Fish Skin</span>
@@ -950,13 +1073,16 @@
             <td></td>
             <td>Tempest Desert</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Desert Snakehead.png" alt="Desert Snakehead">
+                <span class="item-icon">
+                    <img src="images/FK/Desert Snakehead.png" alt="Desert Snakehead">
                     <span class="fish-name">Desert Snakehead</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Patterned Pink Shell</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Patterned Pink Shell.png" alt="">
+                    <span class="bait">Patterned Pink Shell</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Mystic Violet Fish Eye<br><br>Demonic Red Fish Eggs</span>
@@ -969,13 +1095,16 @@
             <td></td>
             <td>Emerald Peak</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Snakehead Overlord.png" alt="Snakehead Overlord">
+                <span class="item-icon">
+                    <img src="images/FK/Snakehead Overlord.png" alt="Snakehead Overlord">
                     <span class="fish-name">Snakehead Overlord</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Plump Frog Overlord</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Plump Frog Overlord.png" alt="">
+                    <span class="bait">Plump Frog Overlord</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Snakehead Overlord's Fins<br><br>Snakehead Overlord's Fangs</span>
@@ -988,13 +1117,16 @@
             <td></td>
             <td>Vivid Dragon Riverscape</td>
             <td>
-                <span class="image-text">
-                    <img src="images/Cruiser Remora.png" alt="Cruiser Remora">
+                <span class="item-icon">
+                    <img src="images/FK/Cruiser Remora.png" alt="Cruiser Remora">
                     <span class="fish-name">Cruiser Remora</span>
                 </span>
             </td>
             <td>
-                <span class="bait">Floral Swallow</span>
+                <span class="item-icon">
+                    <img src="images/Baits/Floral Swallow.png" alt="">
+                    <span class="bait">Floral Swallow</span>
+                </span>
             </td>
             <td>
                 <span class="fish-name">Suction Cups of the Cruiser Longfish (?)<br><br>Cruiser Chief's Fish Fin</span>
